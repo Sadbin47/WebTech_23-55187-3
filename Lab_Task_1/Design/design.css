@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+form {
+    width: 88%;
+    margin: 50px auto;
+}
+
+fieldset {
+    border: 2px solid #6c7cff;
+    border-radius: 10px;
+    padding: 50px 30px 40px 30px;
+    background-color: #f7f8ff;
+}
+
+legend {
+    background: linear-gradient(to right, #6376f2, #7b48b5);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px 30px;
+    border-radius: 6px;
+}
+
+.form-row {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 25px;
+}
+
+.form-group {
+    width: 50%;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    color: #2d3748;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #dddddd;
+    border-radius: 7px;
+    box-sizing: border-box;
+}
+
+.button-area {
+    text-align: center;
+    margin-top: 30px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    width: 230px;
+    padding: 15px;
+    margin: 0 8px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+input[type="submit"] {
+    background: linear-gradient(to right, #6376f2, #7b48b5);
+    color: white;
+    border: none;
+}
+
+input[type="reset"] {
+    background-color: #dddddd;
+    color: #222222;
+    border: none;
+}
